@@ -1,0 +1,11 @@
+# Code and docs only. Everything at the top level is ignored unless listed below,
+# so data, GSI reports, model outputs, logs and zips can never be committed by accident.
+/*
+!/.gitignore
+!/README.md
+!/environment.yml
+!/run_pipeline.bat
+!/*.py
+!/docs/
+__pycache__/
+*.pyc

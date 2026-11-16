@@ -1,0 +1,23 @@
+name: ai-mineral-targeting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn>=1.2
+  - matplotlib
+  - rasterio
+  - pyogrio
+  - pyproj
+  - geopandas
+  - shapely
+  - fiona
+  - openpyxl
+  - xlrd
+  - pypdf
+  - defusedxml
+  - certifi
+  - pillow
+  - pytorch    # only for the CNN contender (train_v1.py --learner cnn)
